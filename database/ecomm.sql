@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 07, 2020 at 01:57 AM
+-- Generation Time: Jul 07, 2020 at 09:14 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.6
 
@@ -59,10 +59,8 @@ CREATE TABLE `category` (
 --
 
 INSERT INTO `category` (`id`, `name`, `cat_slug`) VALUES
-(1, 'Laptops', 'laptops'),
-(2, 'Desktop PC', 'desktop-pc'),
-(3, 'Tablets', 'tablets'),
-(4, 'Smart Phones', '');
+(1, 'Natural Food Supplement', 'Natural Food Supplement'),
+(4, 'Other Producrs', '');
 
 -- --------------------------------------------------------
 
@@ -113,11 +111,9 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`id`, `category_id`, `name`, `description`, `slug`, `price`, `photo`, `date_view`, `counter`) VALUES
-(1, 1, 'Spirulina Capsule', 'AMWORLD SPIRULINA CAPSULE is an all in one super nutrition being a single natural source of iron, vitamins, minerals, essential micro nutrients and GLA SPIRULINA CAPSULE corrects nutritional imbalance, builds immunity and helps every member of Family to lead healthy and active life.\r\n\r\nSPIRULINA CAPSULE is a single cell plants from the blue green algae species is is rich in vitamins, proteins, anti oxidant & chlorophyll. The chlorophyll in SPIRULINA CAPSULE helps to eliminate toxin from the body & cleans the kidneys, blood & liver\r\n\r\nSPIRULINA CAPSULE An herbal organic Spirulina super food.', 'Natural Food Supplement', 550, '', '2020-02-20', 0),
-(2, 1, 'Wheat Grass Capsule', 'AMWORLD Wheat Grass Capsule Reduces Blood Sugar Controls Blood Pressure Boost Metabolism Rebuild Strength.\r\n\r\nDetoxifies the heavy metal of body\r\n\r\nPunities liver Improves digestion & controls acidity Increases energy Reduces Weight and Fats.', 'Natural Food Supplement', 607, '', '2020-04-15', 0),
-(3, 1, 'Wheat Grass Grass Powder', 'AMWORLD Wheat Grass Reduces Blood Sugar Controls Blood Pressure \r\nBoost Metabolism \r\nRebuild Strength\r\nDetoxifies the heavy metal of body\r\nPurifies liver.Improves digestion & controls acidity \r\nIncreases energy Reduces Weight and Fats.', 'Natural Food Supplement', 557, '', '2020-02-15', 0),
-(30, 1, 'laptop', '', 'laptop', 1000, '', '2020-06-12', 1),
-(31, 2, 'AIR CONDITIONER', '', 'air-conditioner', 1212, '', '0000-00-00', 0);
+(32, 1, ' Wheat Grass Powder ', '<p><strong>AMWORLD Wheat Grass Powder</strong></p>\r\n\r\n<ul>\r\n	<li>Reduces Blood Sugar Controls Blood Pressure</li>\r\n	<li>Boost Metabolism</li>\r\n	<li>Rebuild Strength</li>\r\n	<li>Detoxifies the heavy metal of body</li>\r\n	<li>Purifies liver.Improves digestion &amp; controls acidity</li>\r\n	<li>Increases energy Reduces Weight and Fats.</li>\r\n</ul>\r\n', 'wheat-grass-powder', 7.44, 'wheat-grass-powder_1594100133.jpeg', '2020-07-07', 11),
+(33, 1, 'Wheat Grass Capsule', '<p><strong>AMWORLD Wheat Grass Capsule </strong></p>\r\n\r\n<ul>\r\n	<li>Reduces Blood Sugar Controls Blood Pressure Boost Metabolism Rebuild Strength.</li>\r\n	<li>Detoxifies the heavy metal of body</li>\r\n	<li>Punities liver Improves digestion &amp; controls acidity Increases energy Reduces Weight and Fats.</li>\r\n</ul>\r\n', 'wheat-grass-capsule', 8.1, 'wheat-grass-capsule_1594100286.jpeg', '2020-07-07', 4),
+(34, 1, 'SPIRULINA CAPSULE', '<p><strong>AMWORLD SPIRULINA CAPSULE </strong>is an all in one super nutrition being a single natural source of iron, vitamins, minerals, essential micro nutrients and GLA SPIRULINA CAPSULE corrects nutritional imbalance, builds immunity and helps every member of Family to lead healthy and active life.</p>\r\n\r\n<p>SPIRULINA CAPSULE is a single cell plants from the blue green algae species is is rich in vitamins, proteins, anti oxidant &amp; chlorophyll. The chlorophyll in SPIRULINA CAPSULE helps to eliminate toxin from the body &amp; cleans the kidneys, blood &amp; liver</p>\r\n\r\n<p>SPIRULINA CAPSULE An herbal organic Spirulina super food.</p>\r\n', 'spirulina-capsule', 7.34, 'spirulina-capsule.jpeg', '2020-07-07', 5);
 
 -- --------------------------------------------------------
 
@@ -167,7 +163,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `email`, `password`, `type`, `firstname`, `lastname`, `address`, `contact_info`, `photo`, `status`, `activate_code`, `reset_code`, `created_on`) VALUES
-(1, 'admin@admin.com', '$2y$10$0SHFfoWzz8WZpdu9Qw//E.tWamILbiNCX7bqhy3od0gvK5.kSJ8N2', 1, 'team', 'symbiosis', '', '', 'thanos1.jpg', 1, '', '', '2018-05-01'),
+(1, 'admin@admin.com', '$2y$10$0SHFfoWzz8WZpdu9Qw//E.tWamILbiNCX7bqhy3od0gvK5.kSJ8N2', 1, 'team', 'symbiosis', '', '', 'adminpic.png', 1, '', '', '2018-05-01'),
 (13, 'test@gmail.com', '$2y$10$jquTlkIGBvXNC5HDJt3dZeeGQOGvkOfofQ0rmkrCwSzi8HSp42fBa', 0, 'john', 'doe', '123', '', '', 1, '', '', '2020-06-05'),
 (15, 'suas@gmail.com', '$2y$10$YICfZNRybMImQYajfVgTNOl985reJJu.4zmKrVKYnYk8ca425KFC.', 0, 'symbiosis', 'indore', '', '', '', 1, '', '', '2020-06-11');
 
@@ -237,7 +233,7 @@ ALTER TABLE `details`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
 
 --
 -- AUTO_INCREMENT for table `sales`
