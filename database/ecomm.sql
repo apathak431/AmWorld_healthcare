@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 12, 2020 at 03:26 PM
+-- Generation Time: Jul 07, 2020 at 01:57 AM
 -- Server version: 10.4.11-MariaDB
--- PHP Version: 7.2.31
+-- PHP Version: 7.4.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -113,6 +113,9 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`id`, `category_id`, `name`, `description`, `slug`, `price`, `photo`, `date_view`, `counter`) VALUES
+(1, 1, 'Spirulina Capsule', 'AMWORLD SPIRULINA CAPSULE is an all in one super nutrition being a single natural source of iron, vitamins, minerals, essential micro nutrients and GLA SPIRULINA CAPSULE corrects nutritional imbalance, builds immunity and helps every member of Family to lead healthy and active life.\r\n\r\nSPIRULINA CAPSULE is a single cell plants from the blue green algae species is is rich in vitamins, proteins, anti oxidant & chlorophyll. The chlorophyll in SPIRULINA CAPSULE helps to eliminate toxin from the body & cleans the kidneys, blood & liver\r\n\r\nSPIRULINA CAPSULE An herbal organic Spirulina super food.', 'Natural Food Supplement', 550, '', '2020-02-20', 0),
+(2, 1, 'Wheat Grass Capsule', 'AMWORLD Wheat Grass Capsule Reduces Blood Sugar Controls Blood Pressure Boost Metabolism Rebuild Strength.\r\n\r\nDetoxifies the heavy metal of body\r\n\r\nPunities liver Improves digestion & controls acidity Increases energy Reduces Weight and Fats.', 'Natural Food Supplement', 607, '', '2020-04-15', 0),
+(3, 1, 'Wheat Grass Grass Powder', 'AMWORLD Wheat Grass Reduces Blood Sugar Controls Blood Pressure \r\nBoost Metabolism \r\nRebuild Strength\r\nDetoxifies the heavy metal of body\r\nPurifies liver.Improves digestion & controls acidity \r\nIncreases energy Reduces Weight and Fats.', 'Natural Food Supplement', 557, '', '2020-02-15', 0),
 (30, 1, 'laptop', '', 'laptop', 1000, '', '2020-06-12', 1),
 (31, 2, 'AIR CONDITIONER', '', 'air-conditioner', 1212, '', '0000-00-00', 0);
 
