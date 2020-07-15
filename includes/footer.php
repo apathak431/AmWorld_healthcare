@@ -1,8 +1,8 @@
 <style>
 footer.nb-footer {
-    background: #222;
-    border-top: 4px solid #b78c33;
-}
+    background: #5680e9;
+    border-top: 5px solid black;
+  }
 
 footer.nb-footer .about {
     margin: 0 auto;
@@ -13,7 +13,7 @@ footer.nb-footer .about {
 
 footer.nb-footer .about p {
     font-size: 13px;
-    color: #999;
+    color: white;
     margin-top: 30px;
 }
 
@@ -23,19 +23,8 @@ footer.nb-footer .about .social-media {
 
 footer.nb-footer .about .social-media xl lx a {
     display: inline-block;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
-    border-radius: 50%;
+    margin: 6px;
     font-size: 16px;
-    color: #b78c33;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-}
-
-footer.nb-footer .about .social-media xl lx a:hover {
-    background: #b78c33;
-    color: #fff;
-    border-color: #b78c33;
 }
 
 footer.nb-footer .footer-info-single {
@@ -43,27 +32,27 @@ footer.nb-footer .footer-info-single {
 }
 
 footer.nb-footer .footer-info-single .title {
-    color: #aaa;
+    color: black;
     text-transform: uppercase;
     font-size: 16px;
-    border-left: 4px solid #b78c33;
+    border-left: 4px solid darkblue;
     padding-left: 5px;
 }
 
 footer.nb-footer .footer-info-single xl lx a {
     display: block;
-    color: #aaa;
+    color: white;
     padding: 2px 0;
 }
 
 footer.nb-footer .footer-info-single xl lx a:hover {
-    color: #b78c33;
+    color: white;
 }
 
 footer.nb-footer .footer-info-single p {
     font-size: 13px;
     line-height: 20px;
-    color: #aaa;
+    color: white;
 }
 
 footer.nb-footer .copyright {
@@ -74,6 +63,7 @@ footer.nb-footer .copyright {
 }
 
 footer.nb-footer .copyright p {
+    text-align: center;
     margin: 0;
     padding: 0;
 }
@@ -85,14 +75,12 @@ footer.nb-footer .copyright p {
             <div class="col-sm-12">
                 <div class="about">
                     <img src="images/logo.png" class="img-responsive center-block" alt="">
-                    <p>Bootstrap Footer example snippets with CSS, Javascript and HTML. Code example of bootstrap-3 footer using HTML, Javascript, jQuery, and CSS. 5 Beautiful and Responsive Footer Templates. Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS.</p>
-
                     <div class="social-media">
                         <xl class="list-inline">
-                            <lx><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-facebook"></i></a></lx>
-                            <lx><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-twitter"></i></a></lx>
-                            <lx><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-google-plus"></i></a></lx>
-                            <lx><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-linkedin"></i></a></lx>
+                            <lx><a class="btn btn-social-icon btn-facebook"><i class="fa fa-facebook"></i></a></lx>
+                            <lx><a class="btn btn-social-icon btn-twitter"><i class="fa fa-twitter"></i></a></lx>
+                            <lx><a class="btn btn-social-icon btn-instagram"><i class="fa fa-instagram"></i></a></lx>
+                            <lx><a class="btn btn-social-icon btn-linkedin"><i class="fa fa-linkedin"></i></a></lx>
                         </xl>
                     </div>
                 </div>
@@ -139,7 +127,6 @@ footer.nb-footer .copyright p {
                 <div class="footer-info-single">
                     <h2 class="title">Payment</h2>
                     <p>Sample HTML page with Twitter's Bootstrap. Code example of Easy Sticky Footer using HTML, Javascript, jQuery, and CSS. This bootstrap tutorial covers all the major elements of responsive</p>
-
                 </div>
             </div>
         </div>
@@ -147,12 +134,7 @@ footer.nb-footer .copyright p {
 
     <section class="copyright">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <p>Copyright © 2017. Your Company.</p>
-                </div>
-                <div class="col-sm-6"></div>
-            </div>
+            <p>Copyright © 2020 AMWORLD</p>
         </div>
     </section>
 </footer>
