@@ -36,7 +36,7 @@
                                 <input type="text" placeholder="Email" name="email" class="form-control" id="email">
                             </div>
                             <div class="form-group">
-                                <textarea placeholder="Message" name="email" class="form-control" id="message"></textarea>
+                                <textarea placeholder="Message" name="message" class="form-control" id="message"></textarea>
                             </div>
                             <div class="form-group">
                                 <input class="btn btn-primary btn-lg btn-flat" name="submit" type="submit">
