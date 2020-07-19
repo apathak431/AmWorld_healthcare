@@ -45,6 +45,10 @@ footer.nb-footer .footer-info-single xl lx a {
     padding: 2px 0;
 }
 
+footer.nb-footer .footer-info-single xl lx {
+    color: white;
+}
+
 footer.nb-footer .footer-info-single xl lx a:hover {
     color: white;
 }
@@ -88,12 +92,12 @@ footer.nb-footer .copyright p {
 
             <div class="col-md-3 col-sm-6">
                 <div class="footer-info-single">
-                    <h2 class="title">Help Center</h2>
+                    <h2 class="title">Contact Us</h2>
                     <xl class="list-unstyled">
-                        <lx><a href="" title=""><i class="fa fa-angle-double-right"></i> How to Pay</a></lx>
-                       <lx><a href="/" title=""><i class="fa fa-angle-double-right"></i> FAQ's</a></lx>
-                        <lx><a href="/" title=""><i class="fa fa-angle-double-right"></i> Sitemap</a></lx>
-                        <lx><a href="/" title=""><i class="fa fa-angle-double-right"></i> Delivery Info</a></lx>
+                        <lx>+91 9876 876 876</lx>
+                        <lx><a href="mailto: ">contact@amworld.com</a></lx>
+                        <lx>Adress of Amworld, Indore (MP), Pincode: 452001</lx>
+                        <lx></lx>
                     </xl>
                 </div>
             </div>
@@ -125,8 +129,9 @@ footer.nb-footer .copyright p {
 
             <div class="col-md-3 col-sm-6">
                 <div class="footer-info-single">
-                    <h2 class="title">Payment</h2>
-                    <p>Sample HTML page with Twitter's Bootstrap. Code example of Easy Sticky Footer using HTML, Javascript, jQuery, and CSS. This bootstrap tutorial covers all the major elements of responsive</p>
+                    <h2 class="title">About Us</h2>
+                    <p>To bridge Trans-continental gaps via creating a sustainable model ,which remains immune of socio-economic & geopolitical factors.
+                    </p>
                 </div>
             </div>
         </div>
