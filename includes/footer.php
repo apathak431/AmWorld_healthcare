@@ -77,9 +77,9 @@ footer.nb-footer .copyright p {
                     <img src="images/logo.png" class="img-responsive center-block" alt="">
                     <div class="social-media">
                         <xl class="list-inline">
-                            <lx><a class="btn btn-social-icon btn-facebook"><i class="fa fa-facebook"></i></a></lx>
-                            <lx><a class="btn btn-social-icon btn-twitter"><i class="fa fa-twitter"></i></a></lx>
-                            <lx><a class="btn btn-social-icon btn-instagram"><i class="fa fa-instagram"></i></a></lx>
+                            <lx><a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/amworldhealthcare/ https://www.linkedin.com/company/amworldhealthcare-wellness/"><i class="fa fa-facebook"></i></a></lx>
+                            <lx><a class="btn btn-social-icon btn-twitter" ahref=""><i class="fa fa-twitter"></i></a></lx>
+                            <lx><a class="btn btn-social-icon btn-instagram" ahref="https://www.instagram.com/amworld_healthcare/"><i class="fa fa-instagram"></i></a></lx>
                             <lx><a class="btn btn-social-icon btn-linkedin"><i class="fa fa-linkedin"></i></a></lx>
                         </xl>
                     </div>
