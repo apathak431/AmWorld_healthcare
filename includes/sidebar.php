@@ -47,10 +47,10 @@
 	    	<h3 class='box-title'><b>Follow us on Social Media</b></h3>
 	  	</div>
 	  	<div class='box-body'>
-	    	<a class="btn btn-social-icon btn-facebook"><i class="fa fa-facebook"></i></a>
+	    	<a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/amworldhealthcare/"><i class="fa fa-facebook"></i></a>
 	    	<a class="btn btn-social-icon btn-twitter"><i class="fa fa-twitter"></i></a>
-	    	<a class="btn btn-social-icon btn-instagram"><i class="fa fa-instagram"></i></a>
-	    	<a class="btn btn-social-icon btn-linkedin"><i class="fa fa-linkedin"></i></a>
+	    	<a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/amworld_healthcare/"><i class="fa fa-instagram"></i></a>
+	    	<a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/company/amworldhealthcare-wellness/"><i class="fa fa-linkedin"></i></a>
 	  	</div>
 	</div>
 </div>
