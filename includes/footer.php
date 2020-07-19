@@ -86,42 +86,42 @@ footer.nb-footer .copyright p {
                 </div>
             </div>
 
-           <!-- <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6">
                 <div class="footer-info-single">
                     <h2 class="title">Help Center</h2>
                     <xl class="list-unstyled">
                         <lx><a href="" title=""><i class="fa fa-angle-double-right"></i> How to Pay</a></lx>
-                       <lx><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> FAQ's</a></lx>
-                        <lx><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> Sitemap</a></lx>
-                        <lx><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> Delivery Info</a></lx>
+                       <lx><a href="/" title=""><i class="fa fa-angle-double-right"></i> FAQ's</a></lx>
+                        <lx><a href="/" title=""><i class="fa fa-angle-double-right"></i> Sitemap</a></lx>
+                        <lx><a href="/" title=""><i class="fa fa-angle-double-right"></i> Delivery Info</a></lx>
                     </xl>
                 </div>
-            </div>-->
+            </div>
 
             <div class="col-md-3 col-sm-6">
                 <div class="footer-info-single">
                     <h2 class="title">Customer information</h2>
                     <xl class="list-unstyled">
                         <lx><a href="about.php" title=""><i class="fa fa-angle-double-right"></i> About Us</a></lx>
-                     <!--   <lx><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> FAQ's</a></lx>
-                        <lx><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> Sell Your Items</a></lx>-->
+                     <!--   <lx><a href="/" title=""><i class="fa fa-angle-double-right"></i> FAQ's</a></lx>
+                        <lx><a href="/" title=""><i class="fa fa-angle-double-right"></i> Sell Your Items</a></lx>-->
                         <lx><a href="contact.php" title=""><i class="fa fa-angle-double-right"></i> Contact Us</a></lx>
-                      <!--  <lx><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> RSS</a></lx>-->
+                      <!--  <lx><a href="/" title=""><i class="fa fa-angle-double-right"></i> RSS</a></lx>-->
                     </xl>
                 </div>
             </div>
 
-          <!-- <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6">
                 <div class="footer-info-single">
                     <h2 class="title">Security & privacy</h2>
                     <xl class="list-unstyled">
-                        <lx><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> Terms Of Use</a></lx>
-                        <lx><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> Privacy Policy</a></lx>
-                        <lx><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> Return / Refund Policy</a></lx>
-                        <lx><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> Store Locations</a></lx>
+                        <lx><a href="/" title=""><i class="fa fa-angle-double-right"></i> Terms Of Use</a></lx>
+                        <lx><a href="/" title=""><i class="fa fa-angle-double-right"></i> Privacy Policy</a></lx>
+                        <lx><a href="/" title=""><i class="fa fa-angle-double-right"></i> Return / Refund Policy</a></lx>
+                        <lx><a href="/" title=""><i class="fa fa-angle-double-right"></i> Store Locations</a></lx>
                     </xl>
                 </div>
-            </div>-->
+            </div>
 
             <div class="col-md-3 col-sm-6">
                 <div class="footer-info-single">
