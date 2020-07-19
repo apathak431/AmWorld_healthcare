@@ -25,7 +25,7 @@
                     <h2>Contact Us</h2>
                     <div class="row">
                         <div class="col-lg-8">
-                        <form> 
+                        <form method="post" action="contactus.php"> 
                             <div class="form-group">
                                 <input type="text" placeholder="First Name" class="form-control" id="first-name">
                             </div>
