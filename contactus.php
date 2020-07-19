@@ -1,5 +1,5 @@
 <?php 
-$ToEmail = 'your email id'; 
+$ToEmail = 'tanujn45@gmail.com'; 
 $EmailSubject = 'Site contact form'; 
 $mailheader = "From: ".$_POST["email"]."\r\n"; 
 $mailheader .= "Reply-To: ".$_POST["email"]."\r\n"; 
@@ -8,5 +8,6 @@ $MESSAGE_BODY = "First Name: ".$_POST["firstname"]."";
 $MESSAGE_BODY = "Last Name: ".$_POST["lastname"]."";
 $MESSAGE_BODY .= "Email: ".$_POST["email"].""; 
 $MESSAGE_BODY .= "Message: ".nl2br($_POST["message"]).""; 
-mail($ToEmail, $EmailSubject, $MESSAGE_BODY, $mailheader) or die ("Failure"); 
+mail($ToEmail, $EmailSubject, $MESSAGE_BODY, $mailheader) or die ("Failure");
+header("Location: contact.php");
 ?>

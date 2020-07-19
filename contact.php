@@ -27,19 +27,19 @@
                         <div class="col-lg-8">
                         <form method="post" action="contactus.php"> 
                             <div class="form-group">
-                                <input type="text" placeholder="First Name" class="form-control" id="first-name">
+                                <input type="text" placeholder="First Name" name="firstname" class="form-control" id="first-name">
                             </div>
                             <div class="form-group">
-                                <input type="text" placeholder="Last Name" class="form-control" id="last-name">
+                                <input type="text" placeholder="Last Name" name="lastname" class="form-control" id="last-name">
                             </div>
                             <div class="form-group">
-                                <input type="text" placeholder="Email" class="form-control" id="email">
+                                <input type="text" placeholder="Email" name="email" class="form-control" id="email">
                             </div>
                             <div class="form-group">
-                                <textarea placeholder="Message" class="form-control" id="message"></textarea>
+                                <textarea placeholder="Message" name="email" class="form-control" id="message"></textarea>
                             </div>
                             <div class="form-group">
-                                <input class="btn btn-primary btn-lg btn-flat" type="submit">
+                                <input class="btn btn-primary btn-lg btn-flat" name="submit" type="submit">
                             </div>
                         </form>
                         </div>
