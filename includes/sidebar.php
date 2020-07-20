@@ -48,7 +48,7 @@
 	  	</div>
 	  	<div class='box-body'>
 	    	<a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/amworldhealthcare/"><i class="fa fa-facebook"></i></a>
-	    	<a class="btn btn-social-icon btn-twitter"><i class="fa fa-twitter"></i></a>
+	    	<a class="btn btn-social-icon btn-twitter" href="https://twitter.com/Amworldadvisors"><i class="fa fa-twitter"></i></a>
 	    	<a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/amworld_healthcare/"><i class="fa fa-instagram"></i></a>
 	    	<a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/company/amworldhealthcare-wellness/"><i class="fa fa-linkedin"></i></a>
 	  	</div>
