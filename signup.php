@@ -3,14 +3,6 @@
   if(isset($_SESSION['user'])){
     header('location: cart_view.php');
   }
-
-  if(isset($_SESSION['captcha'])){
-    $now = time();
-    if($now >= $_SESSION['captcha']){
-      unset($_SESSION['captcha']);
-    }
-  }
-
 ?>
 <?php include 'includes/header.php'; ?>
 <body class="hold-transition register-page">

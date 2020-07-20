@@ -32,8 +32,6 @@
 
     <!-- Paypal Express -->
     <script src="https://www.paypalobjects.com/api/checkout.js"></script>
-    <!-- Google Recaptcha -->
-    <script src='https://www.google.com/recaptcha/api.js'></script>
 
   	<!-- Custom CSS -->
     <style type="text/css">

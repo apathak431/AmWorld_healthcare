@@ -13,11 +13,7 @@
 
 		$_SESSION['firstname'] = $firstname;
 		$_SESSION['lastname'] = $lastname;
-		$_SESSION['email'] = $email;
-
-		
-		  		$_SESSION['captcha'] = time() + (10*60);
-		  
+		$_SESSION['email'] = $email;  
 
 		if($password != $repassword){
 			$_SESSION['error'] = 'Passwords did not match';
@@ -84,7 +80,7 @@
 				       
 				        //Content
 				        $mail->isHTML(true);                                  
-				        $mail->Subject = 'ECommerce Site Sign Up';
+				        $mail->Subject = 'Amworld Sign Up';
 				        $mail->Body    = $message;
 
 				        $mail->send();
