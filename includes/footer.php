@@ -78,7 +78,6 @@ footer.nb-footer .copyright p {
         <div class="row">
             <div class="col-sm-12">
                 <div class="about">
-                    <img src="images/logo.png" class="img-responsive center-block" alt="">
                     <div class="social-media">
                         <xl class="list-inline">
                             <lx><a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/amworldhealthcare/"><i class="fa fa-facebook"></i></a></lx>

@@ -38,8 +38,8 @@
 				$code=substr(str_shuffle($set), 0, 12);
 
 				try{
-					$stmt = $conn->prepare("INSERT INTO users (email, password, firstname, lastname, activate_code, created_on) VALUES (:email, :password, :firstname, :lastname, :code, :now)");
-					$stmt->execute(['email'=>$email, 'password'=>$password, 'firstname'=>$firstname, 'lastname'=>$lastname, 'code'=>$code, 'now'=>$now]);
+					$stmt = $conn->prepare("INSERT INTO users (email, password, firstname, lastname, status, activate_code, created_on) VALUES (:email, :password, :firstname, :lastname, :status,:code, :now)");
+					$stmt->execute(['email'=>$email, 'password'=>$password, 'firstname'=>$firstname, 'lastname'=>$lastname, 'status'=>0,'code'=>$code, 'now'=>$now]);
 					$userid = $conn->lastInsertId();
 
 					$message = "
@@ -48,67 +48,29 @@
 						<p>Email: ".$email."</p>
 						<p>Password: ".$_POST['password']."</p>
 						<p>Please click the link below to activate your account.</p>
-						<a href='http://localhost/ecommerce/activate.php?code=".$code."&user=".$userid."'>Activate Account</a>
+						<a href='https://amworldhealthcare.com//activate.php?code=".$code."&user=".$userid."'>Activate Account</a>
 					";
-
-					//Load phpmailer
-		    		require 'vendor/autoload.php';
-
-		    		$mail = new PHPMailer(true);                             
-				    try {
-				        //Server settings
-				        $mail->isSMTP();                                     
-				        $mail->Host = 'smtp.gmail.com';                      
-				        $mail->SMTPAuth = true;                               
-				        $mail->Username = 'testsourcecodester@gmail.com';     
-				        $mail->Password = 'mysourcepass';                    
-				        $mail->SMTPOptions = array(
-				            'ssl' => array(
-				            'verify_peer' => false,
-				            'verify_peer_name' => false,
-				            'allow_self_signed' => true
-				            )
-				        );                         
-				        $mail->SMTPSecure = 'ssl';                           
-				        $mail->Port = 465;                                   
-
-				        $mail->setFrom('testsourcecodester@gmail.com');
-				        
-				        //Recipients
-				        $mail->addAddress($email);              
-				        $mail->addReplyTo('testsourcecodester@gmail.com');
-				       
-				        //Content
-				        $mail->isHTML(true);                                  
-				        $mail->Subject = 'Amworld Sign Up';
-				        $mail->Body    = $message;
-
-				        $mail->send();
-
+					$headers = "From: Amworld\r\n";
+                    $headers .= "Reply-To: ". strip_tags($_POST['req-email']) . "\r\n";
+                    $headers .= "MIME-Version: 1.0\r\n";
+                    $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+                    mail($email, "Account activation", $message, $headers);
+                    
 				        unset($_SESSION['firstname']);
 				        unset($_SESSION['lastname']);
 				        unset($_SESSION['email']);
 
-				        $_SESSION['success'] = 'Account created. Check your email to activate.';
+				        $_SESSION['success'] = 'Account created! Check your email for verification';
 				        header('location: signup.php');
-
-				    } 
-				    catch (Exception $e) {
-				        $_SESSION['error'] = 'Message could not be sent. Mailer Error: '.$mail->ErrorInfo;
-				        header('location: signup.php');
-				    }
-
-
 				}
 				catch(PDOException $e){
 					$_SESSION['error'] = $e->getMessage();
-					header('location: register.php');
+					header('location: signup.php');
 				}
 
 				$pdo->close();
 
 			}
-
 		}
 
 	}
