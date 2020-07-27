@@ -118,10 +118,8 @@ footer.nb-footer .copyright p {
                 <div class="footer-info-single">
                     <h2 class="title">Security & privacy</h2>
                     <xl class="list-unstyled">
-                        <lx><a href="/" title=""><i class="fa fa-angle-double-right"></i> Terms Of Use</a></lx>
-                        <lx><a href="/" title=""><i class="fa fa-angle-double-right"></i> Privacy Policy</a></lx>
-                        <lx><a href="/" title=""><i class="fa fa-angle-double-right"></i> Return / Refund Policy</a></lx>
-                        <lx><a href="/" title=""><i class="fa fa-angle-double-right"></i> Store Locations</a></lx>
+                        <lx><a href="return.php" title=""><i class="fa fa-angle-double-right"></i> Product Return & Refund Policy</a></lx>
+                        <lx><a href="shipping.php" title=""><i class="fa fa-angle-double-right"></i> Shipping and Pickup Policy</a></lx>
                     </xl>
                 </div>
             </div>
@@ -129,7 +127,7 @@ footer.nb-footer .copyright p {
             <div class="col-md-3 col-sm-6">
                 <div class="footer-info-single">
                     <h2 class="title">About Us</h2>
-                    <p>To bridge Trans-continental gaps via creating a sustainable model ,which remains immune of socio-economic & geopolitical factors.
+                    <p>As name suggest is focused to provide high quality herbal products for healthcare and wellness sector. Our effort is to address the preventable ailments before they become surgical issues.
                     </p>
                 </div>
             </div>
