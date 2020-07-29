@@ -93,9 +93,9 @@ footer.nb-footer .copyright p {
                 <div class="footer-info-single">
                     <h2 class="title">Contact Us</h2>
                     <xl class="list-unstyled">
-                        <lx>+91 9876 876 876</lx>
-                        <lx><a href="mailto: ">contact@amworld.com</a></lx>
-                        <lx>Adress of Amworld, Indore (MP), Pincode: 452001</lx>
+                        <lx><i class="fa fa-angle-double-right"></i> +91 9876 876 876</lx>
+                        <lx><a href="mailto: info@amworldhealthcare.com"><i class="fa fa-angle-double-right"></i> info@amworldhealthcare.com</a></lx>
+                        <lx><i class="fa fa-angle-double-right"></i> Crystal IT Park(SEZ), Bldg 1, Ground floor, # 21-24, IndraPuri, Indore-452008 (M.P) India</lx>
                         <lx></lx>
                     </xl>
                 </div>
@@ -119,7 +119,7 @@ footer.nb-footer .copyright p {
                     <h2 class="title">Security & privacy</h2>
                     <xl class="list-unstyled">
                         <lx><a href="return.php" title=""><i class="fa fa-angle-double-right"></i> Product Return & Refund Policy</a></lx>
-                        <lx><a href="shipping.php" title=""><i class="fa fa-angle-double-right"></i> Shipping and Pickup Policy</a></lx>
+                        <lx><a href="shipping.php" title=""><i class="fa fa-angle-double-right"></i> Shipping & Pickup Policy</a></lx>
                     </xl>
                 </div>
             </div>
