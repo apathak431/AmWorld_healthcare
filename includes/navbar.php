@@ -15,7 +15,7 @@
           <li><a href="about.php">ABOUT US</a></li>
           <li><a href="contact.php">CONTACT US</a></li>
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">CATEGORY <span class="caret"></span></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">PRODUCTS <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
               <?php
              
